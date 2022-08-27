@@ -9,4 +9,6 @@ public interface UserService {
 
     public User saveUser(User user, Set<UserRol> usuarioRoles) throws Exception;
 
+    public User getUser(String username);
+
 }

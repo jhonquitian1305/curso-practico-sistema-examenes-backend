@@ -35,4 +35,8 @@ public class UserServiceImpl implements UserService {
         return userLocal;
     }
 
+    @Override
+    public User getUser(String username) {
+        return userRepository.findByUsername(username);
+    }
 }
