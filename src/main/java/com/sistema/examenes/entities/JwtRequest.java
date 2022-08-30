@@ -1,14 +1,14 @@
 package com.sistema.examenes.entities;
 
-public class JWTRequest {
+public class JwtRequest {
 
     private String username;
     private String password;
 
-    public JWTRequest() {
+    public JwtRequest() {
     }
 
-    public JWTRequest(String username, String password) {
+    public JwtRequest(String username, String password) {
         this.username = username;
         this.password = password;
     }

@@ -1,13 +1,13 @@
 package com.sistema.examenes.entities;
 
-public class JWTResponse {
+public class JwtResponse {
 
     private String token;
 
-    public JWTResponse() {
+    public JwtResponse() {
     }
 
-    public JWTResponse(String token) {
+    public JwtResponse(String token) {
         this.token = token;
     }
 
